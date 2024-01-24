@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Получить имя игрока из скрипта загрузки игрока
+            // Получить имя игрока из скрипта загрузки игрока комментарий
             playerName = LoadPlayerData.PlayerInfo.name;
 
             // Создать подключение к базе данных
